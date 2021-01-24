@@ -22,7 +22,7 @@
 // Return a number.
 
 function getTotalPassengers(data) {
-	return 0
+	return data.length
 }
 
 // 2 ---------------------------------------------------------------
@@ -38,7 +38,7 @@ function getSurvivorCount(data) {
 // Return the number of passengers who did not survive. A passenger
 // Return a number.
 
-function getCasualityCount(data) {
+function getCausalityCount(data) {
 	return 0
 }
 
@@ -65,7 +65,7 @@ function getSurvivorCountForClass(data, pclass) {
 // This function takes the data and the passenger class and returns 
 // the number of passengers who did not survive for that class. 
 
-function getCasualityCountForClass(data, pclass) {
+function getCausalityCountForClass(data, pclass) {
 	return 0
 }
 
@@ -126,7 +126,7 @@ function getSurvivorsByGender(data, gender) {
 // 14 ---------------------------------------------------------------
 // Return the number of passengers who did not survived by gender. 
 
-function getCasualitiesByGender(data, gender) {
+function getCausalitiesByGender(data, gender) {
 	return 0
 }
 
@@ -148,11 +148,10 @@ function getAverageAgeByGender(data, gender) {
 // --------------------------------------------------------------
 module.exports.getTotalPassengers = getTotalPassengers
 module.exports.getSurvivorCount = getSurvivorCount
-module.exports.getCasualityCount = getCasualityCount
-module.exports.getUniqueValues = getUniqueValues
+module.exports.getCausalityCount = getCausalityCount
 module.exports.countPassengersInClass = countPassengersInClass
 module.exports.getSurvivorCountForClass = getSurvivorCountForClass
-module.exports.getCasualityCountForClass = getCasualityCountForClass
+module.exports.getCausalityCountForClass = getCausalityCountForClass
 module.exports.getMinAge = getMinAge
 module.exports.getMaxAge = getMaxAge
 module.exports.getEmbarkedCount = getEmbarkedCount
@@ -160,12 +159,5 @@ module.exports.getMaxFare = getMaxFare
 module.exports.getMinFare = getMinFare
 module.exports.getPassengersByGender = getPassengersByGender
 module.exports.getSurvivorsByGender = getSurvivorsByGender
-module.exports.getCasualitiesByGender = getCasualitiesByGender
-module.exports.getSurvivorsByPClass = getSurvivorsByPClass
-module.exports.getCasualitiesByPClass = getCasualitiesByPClass
-module.exports.getTotalFare = getTotalFare
-module.exports.getAverageFare = getAverageFare
-module.exports.getMedianFare = getMedianFare
-module.exports.getAverageAge = getAverageAge
 module.exports.getMedianAge = getMedianAge
 module.exports.getAverageAgeByGender = getAverageAgeByGender

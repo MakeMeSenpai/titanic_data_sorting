@@ -26,7 +26,7 @@ const json_data = './titanic-passengers.json'
 
 describe('Challenge 1 Titanic', () => {
 
-	test('Challenge 1: Test getTotalpassengers', () => {
+	test('Challenge 1: Test getTotalPassengers', () => {
 		expect(index.getTotalPassengers(data)).toBe(891)
 	})
 
@@ -34,8 +34,8 @@ describe('Challenge 1 Titanic', () => {
 		expect(index.getSurvivorCount(data)).toBe(342)
 	})
 
-	test('Challenge 3: Test getCasualityCount', () => {
-		expect(index.getCasualityCount(data)).toBe(549)
+	test('Challenge 3: Test getCausalityCount', () => {
+		expect(index.getCausalityCount(data)).toBe(549)
 	})
 
 	test('Challenge 4: Test countPassengersInClass', () => {
@@ -50,10 +50,10 @@ describe('Challenge 1 Titanic', () => {
 		expect(index.getSurvivorCountForClass(data, 3)).toBe(119)
 	})
 
-	test('Challenge 6: Test getCasualityCountForClass', () => {
-		expect(index.getCasualityCountForClass(data, 1)).toBe(80)
-		expect(index.getCasualityCountForClass(data, 2)).toBe(97)
-		expect(index.getCasualityCountForClass(data, 3)).toBe(372)
+	test('Challenge 6: Test getCasualtyCountForClass', () => {
+		expect(index.getCasualtyCountForClass(data, 1)).toBe(80)
+		expect(index.getCasualtyCountForClass(data, 2)).toBe(97)
+		expect(index.getCasualtyCountForClass(data, 3)).toBe(372)
 	})
 
 	test('Challenge 7: Test getMinAge', () => {
@@ -88,9 +88,9 @@ describe('Challenge 1 Titanic', () => {
 		expect(index.getSurvivorsByGender(data, 'female')).toBe(233)
 	})
 
-	test('Challenge 14: Test getCasualitiesByGender', () => {
-		expect(index.getCasualitiesByGender(data, 'male')).toBe(468)
-		expect(index.getCasualitiesByGender(data, 'female')).toBe(81)
+	test('Challenge 14: Test getCasualtiesByGender', () => {
+		expect(index.getCasualtiesByGender(data, 'male')).toBe(468)
+		expect(index.getCasualtiesByGender(data, 'female')).toBe(81)
 	})
 
 	test('Challenge 15: Test getUniqueValues', () => {

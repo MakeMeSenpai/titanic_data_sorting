@@ -64,7 +64,7 @@ function sumAllProperty(data, property) {
 // and Q, and a couple passengers have undefined for this property. 
 // So the output should be: { S: 644, C: 168, Q: 77, undefined: 2 }
 // That is 644 passengers embarked at South Hampton. 168 embarked 
-// at Cherbourg, 77 emabrked at Queenstown, and 2 are undedfined
+// at Cherbourg, 77 embarked at Queenstown, and 2 are undefined
 
 function countAllProperty(data, property) {
 	return {}

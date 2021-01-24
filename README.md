@@ -13,7 +13,7 @@ The values in a dataset tell a story. Reading the story is the process of sortin
 - Identify values in a dataset
 - Extract data from a dataset using: map filter and reduce
 - Calculate the maximum, minimum, and average values
-- Dervive unique values from a list
+- Derive unique values from a list
 - Use array.map()
 - Use array.filter()
 - Use array.reduce()
@@ -124,7 +124,7 @@ const malePassengers = data.filter((passenger) => {
 malePassengers.length // number of male passengers
 ```
 
-Filter expects you to reutrn true if you want to include the record in the filtered array or false if the record should not be included. 
+Filter expects you to return true if you want to include the record in the filtered array or false if the record should not be included. 
 
 In the sample above `passenger.fields.sex === 'male'` evaluates to true this passenger is included in the filtered array. 
 
@@ -172,7 +172,7 @@ The second line uses `Math.max()` to find the greatest value. This method takes 
 Math.max(56, 23, 78, 94)
 ```
 
-The `...` is the spread operator, use it to break an array apart into seprate parameters. 
+The `...` is the spread operator, use it to break an array apart into separate parameters. 
 
 ```JS
 Math.max(...[56, 23, 78, 94])
@@ -187,9 +187,9 @@ Evaluate your work against the rubric.
 | **Completion** | Did not complete the challenges | Solved all challenges | Solved stretch challenges |
 | **Code quality** | Does not follow coding best practice, the style inconsistent | Code is consistently styled and follows coding best practice, you used a linter | Code reviewed by peer |
 
-### Learing Objectives 
+### Learning Objectives 
 
-Evaluate your knowledge of the learning objectives agains the rubic below. 
+Evaluate your knowledge of the learning objectives against the rubric below. 
 
 | Aspect | Does not meet | Meets | Exceeds |
 |:-------|:--------------|:------|:--------|
